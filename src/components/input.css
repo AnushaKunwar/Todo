@@ -1,0 +1,50 @@
+.todo-input {
+    text-align: center;
+    font-weight: bold;
+    border: solid black;
+    background-color: rgb(35, 35, 33);
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: hwb(325 6% 15% / 0.159);
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #328f8a;
+    background-image: linear-gradient(45deg, hsl(257, 43%, 82%), hsl(146, 3%, 48%));
+    width: 100%;
+    border: solid black;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: whitesmoke;
+}
+
+ol {
+    text-align: center;
+    color: rgb(78, 21, 21);
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #e78ba282;
+    border: solid #78e95826;
+}
+
+input:hover {
+    background-color: #5b490809;
+    border: solid #e9955879;
+}

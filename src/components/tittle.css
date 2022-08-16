@@ -1,0 +1,11 @@
+div {
+    font-family: fantasy;
+    color: rgba(250, 235, 215, 0.634);
+}
+
+.tittle {
+    color: hsla(67, 62%, 65%, 0.616);
+    background-color: hsla(76, 75%, 67%, 0.63);
+    font-family: cursive;
+    font-weight: lighter;
+}
